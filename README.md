@@ -16,4 +16,9 @@ Until all packages are made properly (without checkinstall) this step may be req
 ```
 sudo ldconfig
 ```
+## Installing Latest SatDump 
+```
+sudo apt install --reinstall satdump
+```
+This is only required until version number changes 
 

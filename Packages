@@ -33,9 +33,9 @@ Architecture: all
 Maintainer: Ryzerth
 Depends: libfftw3-dev, libglfw3-dev, libvolk2-dev, librtaudio-dev, libzstd-dev
 Filename: ./sdrpp_ubuntu_jammy_amd64.deb
-Size: 2142212
-MD5sum: e5100c56607f40f4225c4a5ee3f36e82
-SHA1: 9b4ff88c10f7608b7c22f6e9eaf92c5db1f04ac1
-SHA256: b241890c0c125bce91ab00d20bd0d133d609c855aed4318ea5ae27216f061221
+Size: 2247808
+MD5sum: 09cb5f338db35e7b42f47dcbf038f772
+SHA1: 8a1cfdc94ab87adc0b7374ee8d7ce0187dd2c69e
+SHA256: 46d5dfea9e2383befbb4020fab2a4fd5f7eb43d1f38fce6c41c757598f799625
 Description: Bloat-free SDR receiver software
 

@@ -7,3 +7,6 @@ curl -s --compressed "https://alphafox02.github.io/focalx_ppa/KEY.gpg" | gpg --d
 sudo curl -s --compressed -o /etc/apt/sources.list.d/focalx.list "https://alphafox02.github.io/focalx_ppa/focalx.list"
 sudo apt update
 ```
+
+## Installing Packages
+After installing packages, you may need to run sudo ldconfig in a terminal

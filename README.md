@@ -9,4 +9,4 @@ sudo apt update
 ```
 
 ## Installing Packages
-After installing packages, you may need to run sudo ldconfig in a terminal
+sudo ldconfig may be required after install until all packages are made properly (without checkinstall).

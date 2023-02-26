@@ -13,6 +13,21 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: satdump
+Version: 1.1.0
+Architecture: amd64
+Maintainer: Aang23
+Installed-Size: 117235
+Depends: libad9361-0 (>= 0.2), libairspy0 (>= 1.0.10), libairspyhf1 (>= 1.6.8), libbladerf2 (>= 0.2021.10), libc6 (>= 2.35), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.4), libgl1, libglew2.2 (>= 2.2.0-4), libglfw3 (>= 3.2), libgomp1 (>= 4.9), libiio0 (>= 0.23), liblimesuite20.10-1, libluajit-5.1-2 (>= 2.0.4+dfsg), libnng1 (>= 1.5.2), libpng16-16 (>= 1.6.2-1), libportaudio2 (>= 19+svn20101113), librtaudio6 (>= 5.2.0~ds1), librtlsdr0 (>= 0.6.0), libstdc++6 (>= 12), libusb-1.0-0 (>= 2:1.0.8), libvolk2.5 (>= 2.5.1), libzstd1 (>= 1.4.0), ocl-icd-libopencl1 | libopencl-1.1-1 | libopencl1, ocl-icd-libopencl1 | libopencl1, zlib1g (>= 1:1.1.4)
+Filename: ./satdump_1.1.0_amd64.deb
+Size: 31030594
+MD5sum: e329a85927e04befadcd9900dcdd9654
+SHA1: 266a080b0762b2b5e3b59d1c3106c375fb3eb206
+SHA256: def91ce36aa379263de13d9542633066165f50cfaadd25bb0b5d3961fe90d594
+Section: devel
+Priority: optional
+Description: A satellite data processing software
+
 Package: sdrangel
 Version: 7.10.0-1
 Architecture: amd64

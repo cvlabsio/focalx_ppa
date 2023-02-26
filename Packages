@@ -27,3 +27,15 @@ Description: SDR/Analyzer/Generator front-end for various hardware
    Analog: AM, ATV, NFM, SSB, WFM
    Digital: DVB-S, Packet (AX.25), AIS, 802.15.4
 
+Package: sdrpp
+Version: 1.1.0-950
+Architecture: all
+Maintainer: Ryzerth
+Depends: libfftw3-dev, libglfw3-dev, libvolk2-dev, librtaudio-dev, libzstd-dev
+Filename: ./sdrpp_ubuntu_jammy_amd64.deb
+Size: 2142212
+MD5sum: e5100c56607f40f4225c4a5ee3f36e82
+SHA1: 9b4ff88c10f7608b7c22f6e9eaf92c5db1f04ac1
+SHA256: b241890c0c125bce91ab00d20bd0d133d609c855aed4318ea5ae27216f061221
+Description: Bloat-free SDR receiver software
+

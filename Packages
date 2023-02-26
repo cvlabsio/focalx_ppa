@@ -1,3 +1,18 @@
+Package: gr-gsm
+Version: 20230226-1
+Architecture: amd64
+Maintainer: root@dragon
+Installed-Size: 3044
+Provides: build
+Filename: ./gr-gsm_20230226-1_amd64.deb
+Size: 568108
+MD5sum: 71b97d0cb97f25c9bbdcaddb272297d0
+SHA1: a1c48e75bab1f2e3b767ed5553e5a4c87a8b81bc
+SHA256: abe702e799ec9eff6f63319516b615d019dfc298c62ea33676834f8b43ec52fb
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: sdrangel
 Version: 7.10.0-1
 Architecture: amd64

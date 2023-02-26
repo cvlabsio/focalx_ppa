@@ -9,4 +9,11 @@ sudo apt update
 ```
 
 ## Installing Packages
-sudo ldconfig may be required after install until all packages are made properly (without checkinstall).
+```
+sudo apt upgrade gr-gsm
+```
+Until all packages are made properly (without checkinstall) this step may be required
+```
+sudo ldconfig
+```
+

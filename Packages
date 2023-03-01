@@ -13,6 +13,21 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: gr-m17
+Version: 20230301-1
+Architecture: amd64
+Maintainer: root@dragon
+Installed-Size: 428
+Provides: build
+Filename: ./gr-m17_20230301-1_amd64.deb
+Size: 144068
+MD5sum: 425306f5ceeb7ea586480878f63592ad
+SHA1: ebfe0eb31f5d061d512b247396e2fef157b6300b
+SHA256: 8b0cb86e9f61d890434bc137d21c4151a86444505b3658419584d0399b429542
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: satdump
 Version: 1.1.0
 Architecture: amd64

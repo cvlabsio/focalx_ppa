@@ -28,18 +28,42 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: libqt5positioning5
+Source: qtlocation-opensource-src
+Version: 5.15.3+dfsg-4
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 658
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libstdc++6 (>= 11), qtbase-abi-5-15-3
+Recommends: geoclue-2.0
+Filename: ./libqt5positioning5_5.15.3+dfsg-4_amd64.deb
+Size: 223848
+MD5sum: 27f59f3cc58f5341135057f6285eae9b
+SHA1: 233f294b10e2ac12c65465cf8daf27ed75361710
+SHA256: 932507ce5e47b2094efa54502b58e4c426dee21b01c18c9c8cbfb2686cd14981
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtlocation-index.html
+Description: Qt Positioning module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt Positioning module.
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
 Package: libqt5positioning5-plugins
 Source: qtlocation-opensource-src
-Version: 5.15.3+dfsg-3
+Version: 5.15.3+dfsg-4
 Architecture: amd64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 276
-Depends: libqt5positioning5 (= 5.15.3+dfsg-3), libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5)
-Filename: ./libqt5positioning5-plugins_5.15.3+dfsg-3_amd64.deb
+Depends: libqt5positioning5 (= 5.15.3+dfsg-4), libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./libqt5positioning5-plugins_5.15.3+dfsg-4_amd64.deb
 Size: 93102
-MD5sum: 94810e3df4adfe9bc9b7998963c97d73
-SHA1: f0584c45466fb46bfd544ac08738535117ab92a6
-SHA256: 0134c40efc43203a9b443bd1a8289d6d429087ef6a154a988a6af8dd96856a0b
+MD5sum: 5361c6f37a3af2281b8d5e043726f75a
+SHA1: 62ec3ae95fe76cef3ddb6b56d1f64cea9cc87206
+SHA256: cfaefed6cfdf8c8b3660c8eb1a5c16bbf8584d6089654756ade13b17c69c8417
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -49,6 +73,55 @@ Description: Qt Positioning module - position plugins
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt Positioning plugins.
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: qml-module-qtpositioning
+Source: qtlocation-opensource-src
+Version: 5.15.3+dfsg-4
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 129
+Depends: libqt5positioning5-plugins (= 5.15.3+dfsg-4), libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5positioning5 (>= 5.12.2), libqt5positioningquick5 (>= 5.15.2), libqt5qml5 (>= 5.15.3+dfsg~), libqt5quick5 (>= 5.15.3+dfsg~) | libqt5quick5-gles (>= 5.15.3+dfsg~), libstdc++6 (>= 5), qtdeclarative-abi-5-15-3
+Filename: ./qml-module-qtpositioning_5.15.3+dfsg-4_amd64.deb
+Size: 27246
+MD5sum: a3e75028cb63061623340d51274dd854
+SHA1: dc795d4106008d65826ac4a0d5832f8b6674d80f
+SHA256: e117af4af6a8dfc1b6eafa263001c304e57fec915e7fd19b593c6e3bbf4e52c4
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtlocation-index.html
+Description: Qt Positioning QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Positioning QML plugin for Qt Declarative.
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: qtpositioning5-dev
+Source: qtlocation-opensource-src
+Version: 5.15.3+dfsg-4
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 182
+Depends: libqt5positioning5 (= 5.15.3+dfsg-4), libqt5positioning5-plugins (= 5.15.3+dfsg-4), libqt5positioningquick5 (= 5.15.3+dfsg-3), qtbase5-dev, qtdeclarative5-dev
+Breaks: qtlocation5-dev (<< 5.10.1+dfsg-2~)
+Replaces: qtlocation5-dev (<< 5.10.1+dfsg-2~)
+Filename: ./qtpositioning5-dev_5.15.3+dfsg-4_amd64.deb
+Size: 19274
+MD5sum: 628f82fa0409cbae6e8ca2fbd66f53df
+SHA1: 065362b5386baecdf01ecc218f854f8e48f042c4
+SHA256: f7dac18b8ac467236560b80853ad071c4637b0f37caa449e207e35f3579bbccb
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtlocation-index.html
+Description: Qt 5 Positioning development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications using Qt Positioning library.
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 
 Package: satdump

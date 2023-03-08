@@ -12,10 +12,7 @@ sudo apt update
 ```
 sudo apt upgrade gr-gsm
 ```
-Until all packages are made properly (without checkinstall) this step may be required
-```
-sudo ldconfig
-```
+
 ## Installing Latest SatDump 
 ```
 sudo apt install --reinstall satdump

@@ -28,6 +28,29 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: libqt5positioning5-plugins
+Source: qtlocation-opensource-src
+Version: 5.15.3+dfsg-4
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 276
+Depends: libqt5positioning5 (= 5.15.3+dfsg-3), libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./libqt5positioning5-plugins_5.15.3+dfsg-4_amd64.deb
+Size: 93104
+MD5sum: b28af5a018a2e12bb1fc16f4549b8094
+SHA1: 01ea37c735f208096afa3bd007bc1ed86ff19ceb
+SHA256: f0b330597e11234310801f802f04e869dc854b8a367758c93b74494e51fe023b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://doc.qt.io/qt-5/qtlocation-index.html
+Description: Qt Positioning module - position plugins
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt Positioning plugins.
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
 Package: satdump
 Version: 1.1.0
 Architecture: amd64

@@ -1,3 +1,18 @@
+Package: SparkSDR
+Version: 2.0.33
+Architecture: amd64
+Maintainer: SparkSDR
+Installed-Size: 101206
+Depends: libc6, libgcc1, libgssapi-krb5-2, libstdc++6, zlib1g, libssl3 | libssl1.1 | libssl1.0.2 | libssl1.0.1 | libssl1.0.0 | libssl0.9.8, libicu72 | libicu71 |libicu70 | libicu69 |libicu68 | libicu67 |libicu66 | libicu65 | libicu64 | libicu63 | libicu62 | libicu61 | libicu60 | libicu59 | libicu58 | libicu57 | libicu56 | libicu55 | libicu54 | libicu53 | libicu52, libportaudio2
+Filename: ./SparkSDR.2.0.33.linux-x64.deb
+Size: 31162848
+MD5sum: a91c256343a67ffee28b1b8d4cfa29f3
+SHA1: 8e1b35c295edaac1e6f2d660dca0f38aa0776e6b
+SHA256: 1482a67059fc46cc99db51f150017af9de6a3d794dbcbb328ad2fd15e2196e92
+Section: misc
+Priority: extra
+Description: SparkSDR multi radio, multi receiver software defined radio.
+
 Package: gr-gsm
 Version: 20230226-1
 Architecture: amd64

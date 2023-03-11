@@ -195,3 +195,18 @@ SHA1: 8a1cfdc94ab87adc0b7374ee8d7ce0187dd2c69e
 SHA256: 46d5dfea9e2383befbb4020fab2a4fd5f7eb43d1f38fce6c41c757598f799625
 Description: Bloat-free SDR receiver software
 
+Package: vdlm2dec
+Version: 20230311-1
+Architecture: amd64
+Maintainer: root@dragon
+Installed-Size: 132
+Provides: build
+Filename: ./vdlm2dec_20230311-1_amd64.deb
+Size: 43594
+MD5sum: a285777464c9728c95be8d135e935ffa
+SHA1: 21befbdce9bcac3b596c78abadc99bcf2b7b2da4
+SHA256: 773e5cf8043f00b035fdbc8f55c60a2c675d0bc9aed9dbd2e619ca834a14dd41
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+

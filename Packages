@@ -43,6 +43,28 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: gridtracker
+Version: 1.23.0206
+Architecture: all
+Maintainer: Matthew Chambers <nr0q@gridtracker.org>
+Installed-Size: 36542
+Depends: nwjs
+Recommends: speech-dispatcher-espeak-ng
+Filename: ./gridtracker_1.23.0206_all.deb
+Size: 21116664
+MD5sum: aa66e4df37ecf5b5b7337603cd9053af
+SHA1: 92e03dc7467c2a6733fbba50342fc34f0bf55fd5
+SHA256: 7ad97fe2b67d2b112205e73e5246902100dba3130d5c6857e66ab924ffe815ce
+Section: hamradio
+Priority: optional
+Homepage: https://gridtracker.org/
+Description: Companion program to WSJT-X/JTDX
+ .
+ GridTracker listens to traffic from WSJT-X/JTDX, displays it on a map,
+ and has a sophisticated alerting and filtering system for finding and
+ working interesting stations. It also will upload QSO records to multiple
+ logging frameworks including Logbook of the World.
+
 Package: libqt5positioning5
 Source: qtlocation-opensource-src
 Version: 5.15.3+dfsg-4

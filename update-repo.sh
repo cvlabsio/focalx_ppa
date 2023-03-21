@@ -10,10 +10,10 @@ gzip -k -f Packages
 apt-ftparchive release . > Release
 
 # Sign Release file with GPG
-gpg --default-key cemaxecuter@protonmail.com -abs -o - Release.gpg
+gpg --default-key cemaxecuter@protonmail.com -abs -o - Release > Release.gpg
 
 # Clear sign Release file with GPG
-gpg --default-key cemaxecuter@protonmail.com --clearsign -o - InRelease Release
+gpg --default-key cemaxecuter@protonmail.com --clearsign -o - Release > InRelease
 
 # Add all files to git staging area
 git add -A

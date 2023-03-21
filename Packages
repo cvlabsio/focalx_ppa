@@ -112,6 +112,24 @@ Description: Qt Positioning module - position plugins
  This package contains Qt Positioning plugins.
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 
+Package: python3-websockets
+Version: 10.4
+Architecture: amd64
+Maintainer: <@a9b279f872ea>
+Installed-Size: 602
+Depends: python3
+Filename: ./python3-websockets_10.4_amd64.deb
+Size: 185330
+MD5sum: 981a482b79a3dfb63b10fcd7dc6ebb58
+SHA1: d5f8cdc6b1f3ba582d12b11bb5d5fe2e93ca5b0b
+SHA256: 0afc1842c204da64c5924e085d4a82998d0abf2b319b801039c6a01190b574b7
+Section: default
+Priority: extra
+Homepage: https://github.com/aaugustin/websockets
+Description: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
+License: BSD
+Vendor: none
+
 Package: qml-module-qtpositioning
 Source: qtlocation-opensource-src
 Version: 5.15.3+dfsg-4

@@ -180,16 +180,16 @@ Description: Qt 5 Positioning development files
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 
 Package: satdump
-Version: 1.1.0
+Version: 1.1.0-a35e30c2
 Architecture: amd64
 Maintainer: Aang23
-Installed-Size: 117235
+Installed-Size: 121771
 Depends: libad9361-0 (>= 0.2), libairspy0 (>= 1.0.10), libairspyhf1 (>= 1.6.8), libbladerf2 (>= 0.2021.10), libc6 (>= 2.35), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.4), libgl1, libglew2.2 (>= 2.2.0-4), libglfw3 (>= 3.2), libgomp1 (>= 4.9), libiio0 (>= 0.23), liblimesuite20.10-1, libluajit-5.1-2 (>= 2.0.4+dfsg), libnng1 (>= 1.5.2), libpng16-16 (>= 1.6.2-1), libportaudio2 (>= 19+svn20101113), librtaudio6 (>= 5.2.0~ds1), librtlsdr0 (>= 0.6.0), libstdc++6 (>= 12), libusb-1.0-0 (>= 2:1.0.8), libvolk2.5 (>= 2.5.1), libzstd1 (>= 1.4.0), ocl-icd-libopencl1 | libopencl-1.1-1 | libopencl1, ocl-icd-libopencl1 | libopencl1, zlib1g (>= 1:1.1.4)
 Filename: ./satdump_1.1.0_amd64.deb
-Size: 31030594
-MD5sum: e329a85927e04befadcd9900dcdd9654
-SHA1: 266a080b0762b2b5e3b59d1c3106c375fb3eb206
-SHA256: def91ce36aa379263de13d9542633066165f50cfaadd25bb0b5d3961fe90d594
+Size: 22860608
+MD5sum: a3096f3e37bd9ec571b0a9a3daf030da
+SHA1: da6db5ac2b7865766f4848b6aee1bd17518a4952
+SHA256: 3ea65422c5fc0ad77693105ba7f58b6df389a8d0f87124b26fb961201f2f72f8
 Section: devel
 Priority: optional
 Description: A satellite data processing software

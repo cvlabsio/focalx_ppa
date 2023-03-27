@@ -13,6 +13,21 @@ Section: misc
 Priority: extra
 Description: SparkSDR multi radio, multi receiver software defined radio.
 
+Package: dumphfdl
+Version: 20230327-1
+Architecture: amd64
+Maintainer: root@dragon
+Installed-Size: 188
+Provides: build
+Filename: ./dumphfdl_20230327-1_amd64.deb
+Size: 66724
+MD5sum: 1a3542c3ea5dc9613eddbbd98ce24e2b
+SHA1: d795ba6a90b86b03ce8556a595c60b3f2256b0b2
+SHA256: ef6d630767f0c90402dea440fe0d38e80346c2b2308ad3db563a3c069d0cd556
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: gr-gsm
 Version: 20230226-1
 Architecture: amd64

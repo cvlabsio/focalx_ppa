@@ -201,10 +201,10 @@ Maintainer: Aang23
 Installed-Size: 121771
 Depends: libad9361-0 (>= 0.2), libairspy0 (>= 1.0.10), libairspyhf1 (>= 1.6.8), libbladerf2 (>= 0.2021.10), libc6 (>= 2.35), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.4), libgl1, libglew2.2 (>= 2.2.0-4), libglfw3 (>= 3.2), libgomp1 (>= 4.9), libiio0 (>= 0.23), liblimesuite20.10-1, libluajit-5.1-2 (>= 2.0.4+dfsg), libnng1 (>= 1.5.2), libpng16-16 (>= 1.6.2-1), libportaudio2 (>= 19+svn20101113), librtaudio6 (>= 5.2.0~ds1), librtlsdr0 (>= 0.6.0), libstdc++6 (>= 12), libusb-1.0-0 (>= 2:1.0.8), libvolk2.5 (>= 2.5.1), libzstd1 (>= 1.4.0), ocl-icd-libopencl1 | libopencl-1.1-1 | libopencl1, ocl-icd-libopencl1 | libopencl1, zlib1g (>= 1:1.1.4)
 Filename: ./satdump_1.1.0_amd64.deb
-Size: 22860608
-MD5sum: a3096f3e37bd9ec571b0a9a3daf030da
-SHA1: da6db5ac2b7865766f4848b6aee1bd17518a4952
-SHA256: 3ea65422c5fc0ad77693105ba7f58b6df389a8d0f87124b26fb961201f2f72f8
+Size: 22862924
+MD5sum: 045c318e23b61d679b3075af325b0d86
+SHA1: a1d4e8f4474dd5e660b0218493f3ec8e7584bcd4
+SHA256: 6120c096233cd778cb3eb92e21f9530a7d12bc3a8d9a3bb235296482b849f1a6
 Section: devel
 Priority: optional
 Description: A satellite data processing software

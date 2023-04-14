@@ -28,6 +28,21 @@ Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3
 
+Package: gqrx-sdr
+Version: 20230414-1
+Architecture: amd64
+Maintainer: root@dragon
+Installed-Size: 2172
+Provides: build
+Filename: ./gqrx-sdr_20230414-1_amd64.deb
+Size: 682910
+MD5sum: f76d7b8e394dd63408451d13d709db7a
+SHA1: 967836a6ea2c192ca5fa5dd2ed603e36b08459f9
+SHA256: 80d7865f3aa05c297ee074992c5a7c6473744d7d48d9c89e5c12a6d8494ccbc1
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: gr-gsm
 Version: 20230226-1
 Architecture: amd64

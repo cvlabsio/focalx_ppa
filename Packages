@@ -13,6 +13,21 @@ Section: misc
 Priority: extra
 Description: SparkSDR multi radio, multi receiver software defined radio.
 
+Package: dsd-fme
+Version: 20230423-1
+Architecture: amd64
+Maintainer: root@dragon
+Installed-Size: 744
+Provides: build
+Filename: ./dsd-fme_20230423-1_amd64.deb
+Size: 194966
+MD5sum: 9adb0eb62b6888f9f224b2791a035764
+SHA1: 38a40797db828e6f575f4c39fbdaf1627b0e5ee6
+SHA256: 8c57765e326ee8b3d6c7dd53dca5b9e683e15bf92ff5b406d4cd3df94ac02dc9
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: dumphfdl
 Version: 20230327-1
 Architecture: amd64
@@ -254,15 +269,15 @@ Description: SDR/Analyzer/Generator front-end for various hardware
    Digital: DVB-S, Packet (AX.25), AIS, 802.15.4
 
 Package: sdrpp
-Version: 1.1.0-950
+Version: 1.1.0-1012
 Architecture: all
 Maintainer: Ryzerth
 Depends: libfftw3-dev, libglfw3-dev, libvolk2-dev, librtaudio-dev, libzstd-dev
 Filename: ./sdrpp_ubuntu_jammy_amd64.deb
-Size: 2247808
-MD5sum: 09cb5f338db35e7b42f47dcbf038f772
-SHA1: 8a1cfdc94ab87adc0b7374ee8d7ce0187dd2c69e
-SHA256: 46d5dfea9e2383befbb4020fab2a4fd5f7eb43d1f38fce6c41c757598f799625
+Size: 2256858
+MD5sum: f5a66316873c93ef44b6e4eb6a6cb035
+SHA1: 59ff8b83b9ce06bea021b6611da1522024c3d0d6
+SHA256: 35bccdcfcd290bf87635cd35857e8133032d1201ed187003bc7d088e79ca9918
 Description: Bloat-free SDR receiver software
 
 Package: vdlm2dec

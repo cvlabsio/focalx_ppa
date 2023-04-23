@@ -20,10 +20,10 @@ Maintainer: root@dragon
 Installed-Size: 744
 Provides: build
 Filename: ./dsd-fme_20230423-1_amd64.deb
-Size: 194966
-MD5sum: 9adb0eb62b6888f9f224b2791a035764
-SHA1: 38a40797db828e6f575f4c39fbdaf1627b0e5ee6
-SHA256: 8c57765e326ee8b3d6c7dd53dca5b9e683e15bf92ff5b406d4cd3df94ac02dc9
+Size: 194942
+MD5sum: 1171231702a913cfc82e4b0477330d17
+SHA1: 8af6b997b431761903741933d45cae72460045c3
+SHA256: c281e3a98176d151bd10742a1b7881648b7bc4e97d5824cd18a57cd7239c2091
 Section: checkinstall
 Priority: extra
 Description: Package created with checkinstall 1.6.3

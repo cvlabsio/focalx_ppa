@@ -18,8 +18,12 @@ gpg --default-key cemaxecuter@protonmail.com --clearsign -o - Release > InReleas
 # Add all files to git staging area
 git add -A
 
-# Commit changes with message "update"
-git commit -m "update"
+# Prompt for commit message
+read -p "Enter commit message: " commit_message
+
+# Commit changes with the entered message
+git commit -m "$commit_message"
+
 
 # Push changes to git repository
 git push

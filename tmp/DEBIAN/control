@@ -1,0 +1,9 @@
+Package: LTESniffer
+Priority: extra
+Section: checkinstall
+Installed-Size: 92
+Maintainer: root@dragon
+Architecture: amd64
+Version: 1.2.0
+Provides: LTESniffer
+Description: Package created with checkinstall 1.6.3

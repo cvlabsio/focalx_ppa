@@ -1,3 +1,18 @@
+Package: LTESniffer
+Version: 1.2.0
+Architecture: amd64
+Maintainer: root@dragon
+Installed-Size: 92
+Provides: LTESniffer
+Filename: ./LTESniffer_1.2.0_amd64.deb
+Size: 22645336
+MD5sum: 56faf72315de28e65a224cd7e54ac874
+SHA1: 06025b7097369b83713306baf50a658321188b19
+SHA256: 0c0458508cd8f09ae057503bf2c91f99161c7f68c21d7e81d867a45ce9dc16bb
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: SparkSDR
 Version: 2.0.33
 Architecture: amd64
@@ -223,21 +238,6 @@ Description: Qt 5 Positioning development files
  This package contains the header development files used for building Qt 5
  applications using Qt Positioning library.
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-
-Package: rtl-ais
-Version: 20230427-1
-Architecture: amd64
-Maintainer: root@dragon
-Installed-Size: 92
-Provides: rtl
-Filename: ./rtl-ais_20230427-1_amd64.deb
-Size: 20404
-MD5sum: b8e01dd535b1240759e2e903b750c6c4
-SHA1: 9fa611b6a6040acb7253388bd54376d9eb9f73f8
-SHA256: 0f4ebc603e9b1db7e4df79a38868c5c951f4d0f1975720f57f94062a4401d67e
-Section: checkinstall
-Priority: extra
-Description: Package created with checkinstall 1.6.3
 
 Package: satdump
 Version: 1.1.0-a35e30c2

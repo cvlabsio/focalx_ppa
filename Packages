@@ -104,17 +104,17 @@ Priority: extra
 Description: Package created with checkinstall 1.6.3
 
 Package: gridtracker
-Version: 1.23.0206
+Version: 1.23.0402
 Architecture: all
 Maintainer: Matthew Chambers <nr0q@gridtracker.org>
-Installed-Size: 36542
+Installed-Size: 37765
 Depends: nwjs
 Recommends: speech-dispatcher-espeak-ng
-Filename: ./gridtracker_1.23.0206_all.deb
-Size: 21116664
-MD5sum: aa66e4df37ecf5b5b7337603cd9053af
-SHA1: 92e03dc7467c2a6733fbba50342fc34f0bf55fd5
-SHA256: 7ad97fe2b67d2b112205e73e5246902100dba3130d5c6857e66ab924ffe815ce
+Filename: ./gridtracker_1.23.0402_all.deb
+Size: 21492020
+MD5sum: fb4b54ea1d06d59b95b3dee01ebc6b18
+SHA1: 3ab79d30e52bd653987a47148f0c4deb75bd5dbf
+SHA256: be955fcc2400c203366b3e878edb47ec89eeff63251927caaa6818b0e8ccf9c5
 Section: hamradio
 Priority: optional
 Homepage: https://gridtracker.org/

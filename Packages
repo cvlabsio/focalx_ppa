@@ -1,3 +1,18 @@
+Package: LTESniffer
+Version: 1.3.6
+Architecture: amd64
+Maintainer: root@dragon
+Installed-Size: 92
+Provides: LTESniffer
+Filename: ./LTESniffer_1.3.6_amd64.deb
+Size: 24446064
+MD5sum: cbabe4fa88e2c8fdb3d753aaad9b3e62
+SHA1: db97bdc903dffe9f12069c4e8e10915f910920fb
+SHA256: eac6526ec2bc2b64e19fd8aa41b1aae3c7cd909ee670208bda5a19c781d0f50d
+Section: checkinstall
+Priority: extra
+Description: Package created with checkinstall 1.6.3
+
 Package: SparkSDR
 Version: 2.0.33
 Architecture: amd64
